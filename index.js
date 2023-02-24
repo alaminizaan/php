@@ -1,8 +1,8 @@
 const Binance = require('binance-api-node').default;
 
 const client = Binance({
-  apiKey: 'your_api_key',
-  apiSecret: 'your_api_secret'
+  apiKey: 'OtmdN18Tgx7VjnLyD4Ulc7ooNUaS0ezw38EZtTXvz0Eln4LxePIGCjOC95WG80OG',
+  apiSecret: 'ShmYzH63927bieEp6SgHTDXv3hlEdkiePHMsSpdXpbviKNJbGpPSS6M3YSTACq4u'
 });
 
 // use the client object to make API calls
