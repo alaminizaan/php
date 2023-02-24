@@ -8,5 +8,6 @@
   },
   "dependencies": {
     "express": "^4.17.1"
-  }
+    "binance": "^2.17.1"
+  }    
 }
