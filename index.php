@@ -1,5 +1,15 @@
 <?php
 
+function calculate_profit_percentage($price1, $price2, $price3) {
+    $product = $price1 * $price2 * $price3;
+    $profit_percentage = (($product / 100000000) - 1) * 100;
+    return $profit_percentage;
+}
+
+// Add this code to handle errors
+set_error_handler(function($errno, $errstr, $errfile, $errline) {
+    throw new ErrorException($errstr, 0, $errno, $errfile, $errline);
+});
 // Add your Binance API key and secret here
 $binance_api_key = 'OtmdN18Tgx7VjnLyD4Ulc7ooNUaS0ezw38EZtTXvz0Eln4LxePIGCjOC95WG80OG';
 $binance_secret = 'ShmYzH63927bieEp6SgHTDXv3hlEdkiePHMsSpdXpbviKNJbGpPSS6M3YSTACq4u';
