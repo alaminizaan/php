@@ -1,5 +1,5 @@
 <?php
-ini_set('memory_limit', '256M');
+ini_set('memory_limit', '512M');
 
 // Function to make API calls
 function call_api($url, $headers = array()) {
